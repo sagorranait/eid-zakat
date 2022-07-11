@@ -13,8 +13,8 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
-  padding: 16px 20px;
-  background: #cf192e;
+  padding: 15px 20px;
+  background: #e72e44;
   border-radius: 5px;
 }
 
@@ -27,12 +27,17 @@ a {
 
 /* Header Css Start */
 #zakatHeader .header-contant {
-  width: 100%;
+  width: 90%;
   height: 600px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
   background-image: url('./images/header-bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-left: 10%;
 }
 
 .header-contant>h1 {
@@ -47,7 +52,7 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
-  padding: 25px 0px;
+  padding: 25px 0px 30px;
 }
 
 /* Header Css End */
