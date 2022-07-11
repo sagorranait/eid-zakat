@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.zakat-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 16px 20px;
+  background: #cf192e;
+  border-radius: 5px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* General Css End */
+
+/* Header Css Start */
+#zakatHeader .header-contant {
+  width: 100%;
+  height: 600px;
+  background-image: url('./images/header-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header-contant>h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.header-contant>p {
+  width: 500px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding: 25px 0px;
+}
+
+/* Header Css End */
