@@ -8,6 +8,28 @@ a {
   text-decoration: none;
 }
 
+.zakat-contant {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.zakat-contant h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.zakat-contant p {
+  width: 500px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding: 25px 0px 30px;
+}
+
 .zakat-btn {
   font-weight: 600;
   font-size: 16px;
@@ -29,30 +51,11 @@ a {
 #zakatHeader .header-contant {
   width: 90%;
   height: 600px;
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  justify-content: center;
   background-image: url('./images/header-bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding-left: 10%;
-}
-
-.header-contant>h1 {
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 75px;
-  color: #FFFFFF;
-}
-
-.header-contant>p {
-  width: 500px;
-  font-size: 18px;
-  line-height: 28px;
-  color: #FFFFFF;
-  padding: 25px 0px 30px;
 }
 
 /* Header Css End */
