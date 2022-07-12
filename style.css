@@ -40,6 +40,11 @@ a {
   border-radius: 5px;
 }
 
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -59,3 +64,5 @@ a {
 }
 
 /* Header Css End */
+
+/*  */
